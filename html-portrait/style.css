@@ -1,5 +1,9 @@
 body {
+      background-color:#fa8072;
   background-image: url("assets/sky.gif");
+    font-family: "Changa One", sans-serif;
+   color: lavender;
+display: block;
   background-size: cover;
   height: 100vh;
 }
@@ -9,7 +13,7 @@ img {
   border-radius: 20px;
   padding: 10px;
   transition: 1s;
-  filter: grayscale(100%);
+  filter: grayscale();
   /*      border: 3px solid blue; */
 }
 
@@ -22,6 +26,7 @@ img:hover {
 p:hover {
   /*   transform: rotate(5deg); */
   letter-spacing: 1em;
+    color: black;
 }
 
 .specialCenter {
@@ -32,7 +37,7 @@ p:hover {
 
 h1,
 a {
-  animation: coolAnimation 3s infinite;
+  animation: coolAnimation 5s infinite;
 }
 
 #p1 {
@@ -41,12 +46,12 @@ a {
 
 @keyframes coolAnimation {
   0% {
-    color: red;
+    color: lavender;
   }
   50% {
-    color: green;
+    color: salmon;
   }
   100% {
-    color: blue;
+    color: teal;
   }
 }
